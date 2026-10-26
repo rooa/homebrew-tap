@@ -7,22 +7,22 @@ class Wetink < Formula
   on_macos do
     on_arm do
       url "https://github.com/rooa/wetink/releases/download/v0.1.0/wetink-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4dc3361c09bd43efa4c6ed04aa9ae707470fcd614db943325b663cce67e3c7fb"
+      sha256 "d653883ba83b13d27a779f5adaa4a75545f3895d4b1fcf35ab87c02afe8b0415"
     end
     on_intel do
       url "https://github.com/rooa/wetink/releases/download/v0.1.0/wetink-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e544ea72bdbb9a749a0dad333e528c29e38535318def8f33f7197e431af70144"
+      sha256 "605e3be307ac68a900d759c41de5154a04fc3d21dd772d4150f499747869deb4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rooa/wetink/releases/download/v0.1.0/wetink-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "97515ff34027768b35be5aad7b1d364d779c0c3f779d5f20824ec43a03cb5f5f"
+      sha256 "913ac3a60e307f43b1cac3516a78d872ddc754b613263bb8ade9c3d2d17bac37"
     end
     on_intel do
       url "https://github.com/rooa/wetink/releases/download/v0.1.0/wetink-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "027663cb087b7806f8d24b60e4d5e317db42d4764e50c80dd37d1972be4b6c5e"
+      sha256 "190af603dc5eaf28808852b110adf3afc78c21ce9c7f7c923ae5e23e8e9cf5f5"
     end
   end
 
